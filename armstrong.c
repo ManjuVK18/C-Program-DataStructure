@@ -5,7 +5,7 @@ int main()
   printf("Enter a number: ");
   scanf("%d", &n);
   orginalNum = n;
-  while (orginalNum != 0)
+  while (orginalNum != 0)// manjunath
   {
     orginalNum /= 10;
     digits++;
